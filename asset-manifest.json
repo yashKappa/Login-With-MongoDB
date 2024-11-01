@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Login-With-MongoDB/static/css/main.1607ad10.css",
-    "main.js": "/Login-With-MongoDB/static/js/main.6a079baa.js",
+    "main.js": "/Login-With-MongoDB/static/js/main.73933773.js",
     "static/js/453.f1e270c1.chunk.js": "/Login-With-MongoDB/static/js/453.f1e270c1.chunk.js",
     "index.html": "/Login-With-MongoDB/index.html",
     "main.1607ad10.css.map": "/Login-With-MongoDB/static/css/main.1607ad10.css.map",
-    "main.6a079baa.js.map": "/Login-With-MongoDB/static/js/main.6a079baa.js.map",
+    "main.73933773.js.map": "/Login-With-MongoDB/static/js/main.73933773.js.map",
     "453.f1e270c1.chunk.js.map": "/Login-With-MongoDB/static/js/453.f1e270c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1607ad10.css",
-    "static/js/main.6a079baa.js"
+    "static/js/main.73933773.js"
   ]
 }
