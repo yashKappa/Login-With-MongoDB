@@ -1,0 +1,126 @@
+/* Container styling */
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEgaTx1sJwRJQ7WQn0kOQ4_tGYyfmvjjqS9bOHq071NDwkRSZgTJWBt_5Nz97YKVUBiZaGEUYn0vZI-llg0ZEBjcdHeV7-BVZ5MsZNNV-3rVrSdK_RXWbzYTo_3eJNEL3XqiW_JHb2yR47EOftCwmAukkAuk60OYAAVMuDRE7_TcfqkHnBK9M8z60WporxgZ=s1120-rw");
+    background-size: cover; /* Make the image cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-attachment: fixed; /* Keep the background fixed when scrolling */
+}
+
+/* Container box */
+.container {
+    background-color: #ffffff21;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.514),  0px 4px 8px rgba(0, 0, 0, 0.493); /* Soft shadow for depth */
+    width: 40%;
+    max-width: 250px;
+    text-align: center;
+    backdrop-filter: blur(3px);
+}
+
+/* Header styling */
+.login h1 {
+    color: #000000;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+/* Form styling */
+form {
+    width: 100%;
+    
+}
+
+/* Form group to manage label position */
+.form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+/* Style the input fields */
+form input[type="email"],
+form input[type="password"] {
+    width: 95%;
+    padding: 1rem 0.5rem;
+    border: 2px solid #cccccc9f;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+    color: #333;
+    transition: border-color 0.3s ease;
+    background-color: #ffffff83;
+}
+
+/* Placeholder visibility */
+form input[type="email"]::placeholder,
+form input[type="password"]::placeholder {
+    color: transparent;
+}
+
+/* Label for outline effect */
+.form-group label {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    font-size: 1rem;
+    color: #666;
+    background-color: #ffffff02;
+    padding: 0 0.3rem;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+/* Label on focus and input */
+form input[type="email"]:focus + label,
+form input[type="email"]:valid + label,
+form input[type="password"]:focus + label,
+form input[type="password"]:valid + label {
+    top: -0.0rem;
+    font-size: 0.9rem;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.678);
+    backdrop-filter: blur(10rem);
+    border-radius: 0.3rem;
+}
+
+/* Focus border color */
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+    border-color: #4a91e2;
+}
+
+/* Submit button */
+form button[type="submit"] {
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+form input[type="submit"]:hover {
+    background-color: #357ABD;
+}
+
+/* Link styling */
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
